@@ -1,0 +1,85 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+
+.card-image img {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+}
+
+.card-content {
+    padding: 20px;
+}
+
+.card-content .title {
+    color: #333333;
+    font-size: 1.5em;
+}
+
+.card-content .subtitle {
+    color: #666666;
+    font-size: 1.2em;
+}
+
+.buttons.is-centered {
+    margin-top: 10px;
+}
+
+.button {
+    background-color: #3273dc;
+    color: white;
+    border-radius: 4px;
+}
+
+.button:hover {
+    background-color: #275ba6;
+}
+
+#card-1 {
+    background-color: #fff3cd;
+}
+
+#card-2 {
+    background-color: #d1ecf1;
+}
+
+#person-photo-1 {
+    border-bottom: 4px solid #ffeeba;
+}
+
+#person-photo-2 {
+    border-bottom: 4px solid #bee5eb;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .card {
+        margin-bottom: 10px;
+    }
+    .buttons.is-centered {
+        display: flex;
+        justify-content: center;
+    }
+    .button {
+        margin: 0 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .card-content .title {
+        font-size: 1.2em;
+    }
+    .card-content .subtitle {
+        font-size: 1em;
+    }
+}
